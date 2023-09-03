@@ -1,0 +1,53 @@
+{
+  "name": "csv-to-js-object",
+  "version": "1.0.1",
+  "description": "csv-to-js-object simplifies CSV data parsing in Node.js. Fetch, extract headers, and convert CSV files from URLs to JavaScript objects effortlessly. Ideal fordevelopers, data analysis, automation, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulnikam2002/csv-to-js-object.git"
+  },
+  "keywords": [
+    "csv",
+    "csv-parser",
+    "csv-to-object",
+    "data-parsing",
+    "data-conversion",
+    "csv-fetch",
+    "csv-processing",
+    "node-csv",
+    "csv-util",
+    "data-analysis",
+    "automation",
+    "csv-library",
+    "data-integration",
+    "data-manipulation",
+    "node.js",
+    "javascript",
+    "npm-package",
+    "web-development",
+    "data-import",
+    "npm",
+    "csv-tools",
+    "csv-parser-node",
+    "data-extraction",
+    "csv-data",
+    "npm-module",
+    "csv-processing-tool",
+    "npm-repository",
+    "data-formatting"
+  ]
+  ,
+  "author": "Rahul Rajesh Nikam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulnikam2002/csv-to-js-object/issues"
+  },
+  "homepage": "https://github.com/rahulnikam2002/csv-to-js-object#readme",
+  "dependencies": {
+    "axios": "^1.5.0"
+  }
+}
