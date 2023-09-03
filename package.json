@@ -1,16 +1,17 @@
 {
-  "name": "csv-to-js-object",
-  "version": "1.0.1",
-  "description": "csv-to-js-object simplifies CSV data parsing in Node.js. Fetch, extract headers, and convert CSV files from URLs to JavaScript objects effortlessly. Ideal fordevelopers, data analysis, automation, and more.",
+  "name": "easy-csv-parser",
+  "version": "1.0.4",
+  "description": "easy-csv-parser simplifies CSV data parsing in Node.js. Fetch, extract headers, and convert CSV files from URLs to JavaScript objects effortlessly. Ideal fordevelopers, data analysis, automation, and more.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rahulnikam2002/csv-to-js-object.git"
+    "url": "git+https://github.com/rahulnikam2002/easy-csv-parser"
   },
   "keywords": [
+    "easy-csv-parser",
     "csv",
     "csv-parser",
     "csv-to-object",
@@ -39,14 +40,13 @@
     "csv-processing-tool",
     "npm-repository",
     "data-formatting"
-  ]
-  ,
+  ],
   "author": "Rahul Rajesh Nikam",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rahulnikam2002/csv-to-js-object/issues"
+    "url": "https://github.com/rahulnikam2002/easy-csv-parser/issues"
   },
-  "homepage": "https://github.com/rahulnikam2002/csv-to-js-object#readme",
+  "homepage": "https://github.com/rahulnikam2002/easy-csv-parser#readme",
   "dependencies": {
     "axios": "^1.5.0"
   }

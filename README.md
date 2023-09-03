@@ -1,32 +1,32 @@
-# csv-to-object
+# easy-csv-parser
 
-`csv-to-object` is an npm package that allows you to easily parse CSV files from
+`easy-csv-parser` is an npm package that allows you to easily parse CSV files from
 a provided URL into JavaScript objects. This library simplifies the process of
 fetching and processing CSV data, making it useful for a wide range of
 applications.
 
 ## Installation
 
-You can install `csv-to-js-object` using npm or yarn.
+You can install `easy-csv-parser` using npm or yarn.
 
 ```bash
-npm install csv-to-js-object`
+npm install easy-csv-parser
 ```
 
 OR
 
 ```bash
-yarn add csv-to-js-object`
+yarn add easy-csv-parser
 ```
 
 ## Usage
 
-Here's how you can use csv-to-js-object` in your JavaScript project:
+Here's how you can use `easy-csv-parser` in your JavaScript project:
 
 ### Import the library
 
 ```javascript
-const csvToObject = require("csv-to-js-object`");
+const csvToObject = require("easy-csv-parser`");
 ```
 
 ### Exact code
@@ -64,7 +64,7 @@ The csvToObject function returns an object with the following properties:
 
 ## Key Features
 
-**csv-to-object** offers the following key features to simplify your CSV data
+**easy-csv-parser** offers the following key features to simplify your CSV data
 processing tasks:
 
 - **Effortless CSV Retrieval**: Fetch and parse CSV data from a specified URL
@@ -84,7 +84,7 @@ processing tasks:
   including data analysis, automation, data integration, and more. Streamline
   your workflow with ease.
 
-**csv-to-object** is designed to be your go-to tool for handling CSV data
+**easy-csv-parser** is designed to be your go-to tool for handling CSV data
 efficiently and effectively, reducing complexity and improving your development
 experience.
 
@@ -109,17 +109,17 @@ project, we welcome your involvement! Here's how you can get involved:
 
 - **Report Issues**: If you come across any bugs, unexpected behavior, or have
   suggestions for improvements, please visit the
-  [GitHub Issues](https://github.com/rahulnikam2002/csv-to-js-object) page to
+  [GitHub Issues](https://github.com/rahulnikam2002/easy-csv-parser) page to
   create a new issue. Be sure to provide detailed information about the problem
   you encountered.
 
 - **Contribute Code**: If you want to contribute to the development of
-  `csv-to-object`, we appreciate your contributions! You can submit code changes
+  `easy-csv-parser`, we appreciate your contributions! You can submit code changes
   or enhancements by opening a pull request on our
-  [GitHub repository](https://github.com/rahulnikam2002/csv-to-js-object).
+  [GitHub repository](https://github.com/rahulnikam2002/easy-csv-parser).
   Please follow our contribution guidelines when submitting your changes.
 
-Your feedback and contributions help make `csv-to-js-object` better for
+Your feedback and contributions help make `easy-csv-parser` better for
 everyone. Thank you for using and supporting this project!
 
 If you have any questions or need assistance with using the library or
