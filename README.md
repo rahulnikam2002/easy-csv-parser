@@ -21,7 +21,7 @@ yarn add easy-csv-parser
 
 # Usage
 
-## CSV to JSON
+## CSV to Javascript
 
 ### Import the library
 
@@ -49,7 +49,7 @@ async function processCSV() {
 processCSV();
 ```
 
-## CSV to Javascript
+## CSV to JSON
 
 ### Import the library
 
