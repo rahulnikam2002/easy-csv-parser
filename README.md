@@ -21,7 +21,7 @@ yarn add easy-csv-parser
 
 # Usage
 
-## CSV to Javascript
+## CSV to JSON
 
 ### Import the library
 
