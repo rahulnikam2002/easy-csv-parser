@@ -1,8 +1,8 @@
 # easy-csv-parser
 
-`easy-csv-parser` is an npm package that allows you to easily parse CSV files from
-a provided URL into JavaScript objects. This library simplifies the process of
-fetching and processing CSV data, making it useful for a wide range of
+`easy-csv-parser` is an npm package that allows you to easily parse CSV files
+from a provided URL into JavaScript objects. This library simplifies the process
+of fetching and processing CSV data, making it useful for a wide range of
 applications.
 
 ## Installation
@@ -19,14 +19,14 @@ OR
 yarn add easy-csv-parser
 ```
 
-## Usage
+# Usage
 
-Here's how you can use `easy-csv-parser` in your JavaScript project:
+## CSV to Javascript
 
 ### Import the library
 
 ```javascript
-const csvToObject = require("easy-csv-parser`");
+const { csvToObject } = require("easy-csv-parser`");
 ```
 
 ### Exact code
@@ -35,6 +35,34 @@ const csvToObject = require("easy-csv-parser`");
 async function processCSV() {
   const csvLink = "https://example.com/your-csv-file.csv";
   const result = await csvToObject(csvLink);
+
+  if (result.status === 200) {
+    console.log("CSV data successfully parsed:");
+    console.log(result.data);
+  } else if (result.status === 400) {
+    console.error("Bad Request:", result.message);
+  } else {
+    console.error("Error:", result.message);
+  }
+}
+
+processCSV();
+```
+
+## CSV to Javascript
+
+### Import the library
+
+```javascript
+const { csvToJSON } = require("easy-csv-parser`");
+```
+
+### Exact code
+
+```javascript
+async function processCSV() {
+  const csvLink = "https://example.com/your-csv-file.csv";
+  const result = await csvToJSON(csvLink);
 
   if (result.status === 200) {
     console.log("CSV data successfully parsed:");
@@ -114,13 +142,13 @@ project, we welcome your involvement! Here's how you can get involved:
   you encountered.
 
 - **Contribute Code**: If you want to contribute to the development of
-  `easy-csv-parser`, we appreciate your contributions! You can submit code changes
-  or enhancements by opening a pull request on our
-  [GitHub repository](https://github.com/rahulnikam2002/easy-csv-parser).
-  Please follow our contribution guidelines when submitting your changes.
+  `easy-csv-parser`, we appreciate your contributions! You can submit code
+  changes or enhancements by opening a pull request on our
+  [GitHub repository](https://github.com/rahulnikam2002/easy-csv-parser). Please
+  follow our contribution guidelines when submitting your changes.
 
-Your feedback and contributions help make `easy-csv-parser` better for
-everyone. Thank you for using and supporting this project!
+Your feedback and contributions help make `easy-csv-parser` better for everyone.
+Thank you for using and supporting this project!
 
 If you have any questions or need assistance with using the library or
 contributing, feel free to reach out to us on GitHub.

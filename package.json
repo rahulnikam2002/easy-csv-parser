@@ -1,7 +1,7 @@
 {
   "name": "easy-csv-parser",
-  "version": "1.0.4",
-  "description": "easy-csv-parser simplifies CSV data parsing in Node.js. Fetch, extract headers, and convert CSV files from URLs to JavaScript objects effortlessly. Ideal fordevelopers, data analysis, automation, and more.",
+  "version": "1.0.5",
+  "description": "easy-csv-parser simplifies CSV data parsing in Node.js. Fetch, extract headers, and convert CSV files from URLs to JavaScript objects and JSON effortlessly. Ideal fordevelopers, data analysis, automation, and more.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,7 @@
   "keywords": [
     "easy-csv-parser",
     "csv",
+    "csv-to-json",
     "csv-parser",
     "csv-to-object",
     "data-parsing",

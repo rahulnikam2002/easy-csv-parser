@@ -6,7 +6,7 @@ async function csvToObject(link) {
     if (!response.data || response.data.length === 0) {
       return {
         status: 400,
-        message: "Your file might br empty"
+        message: "Your file might be empty"
       };
     }
 
@@ -33,10 +33,32 @@ async function csvToObject(link) {
     };
   } catch (error) {
     return {
-        status: 500,
-        message: `Error fetching or processing CSV: ${error}`
-      };
+      status: 500,
+      message: `Error fetching or processing CSV: ${error}`
+    };
   }
 }
 
-module.exports = csvToObject;
+async function csvToJSON(link) {
+  const csvToObj = await csvToObject(link);
+  if (csvToObj.status === 500) {
+    return {
+      status: 500,
+      message: `Error fetching or processing CSV`
+    };
+  }
+  if (csvToObj.status === 200) {
+    return {
+      status: 200,
+      data: JSON.stringify(csvToObj)
+    };
+  }
+  if (csvToObj.status === 400) {
+    return {
+      status: 400,
+      message: "Your file might br empty"
+    };
+  }
+}
+
+module.exports = { csvToObject, csvToJSON };
